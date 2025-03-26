@@ -14,8 +14,8 @@
 
 Установка,замена и настройка шела:
      sudo pacman -S zsh
-     chsh:
-         /bin/zsh
+     chsh
+     /bin/zsh
      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
      Плагины (автодополнение и подсветка синтаксиса):
           git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
